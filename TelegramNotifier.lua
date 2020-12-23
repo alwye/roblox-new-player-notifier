@@ -5,7 +5,7 @@
 -- Step 2. Message @BotFather to create a new bot. Take note of the access token
 -- Step 3. Text something to your bot, otherwise it won't be able to send you messages
 -- Step 4. In Roblox Studio, go to file -> Game settings -> Security -> Enable "Allow HTTP requests"
--- Step 5. Create a new script under Workspace and copy the content of this file there
+-- Step 5. Create a new script under ServerScriptService and copy the content of this file there
 -- Step 6. Change the configuration values below
 -- Step 7. Save and publish your game! Test it out.
 
