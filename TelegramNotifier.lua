@@ -16,7 +16,7 @@ local HttpService = game:GetService("HttpService")
 -- Configuration
 local telegramToken = "" -- You should get your token at step 2
 local telegramRecipient = "" -- Message to @chatid_echo_bot on Telegram to get your account ID
-local gameName = "" -- Name your game something so that if you get notifications from multiple games
+local gameName = "" -- Name your game something so that you can tell between notifications from different games
 
 Players.PlayerAdded:Connect(function(player)
 	local telegramUrl = "https://api.telegram.org/bot" .. telegramToken .. "/" .. "sendMessage"
